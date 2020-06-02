@@ -12,7 +12,7 @@
         <!-- Styles -->
 
         <script src="{{ secure_asset('js/app.js') }}" defer></script>
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <link rel="stylesheet" href="{{ secure_asset('css/app.css') }}">
 
         <style>
             *{
